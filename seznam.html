@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <title>Seznam úrazů</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Seznam úrazů</h1>
+  <table id="recordsTable" border="1" cellspacing="0" cellpadding="5">
+    <thead>
+      <tr><th>Jméno</th><th>Datum</th><th>Místo</th><th>Popis</th><th>Akce</th></tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <br>
+  <button onclick="exportPDF()">Export do PDF</button>
+  <button onclick="exportExcel()">Export do Excelu</button>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <script src="seznam.js"></script>
+</body>
+</html>

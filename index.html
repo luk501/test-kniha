@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <title>Záznam úrazu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Záznam úrazu</h1>
+  <form id="injuryForm">
+    <label for="name">Jméno:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="date">Datum:</label>
+    <input type="date" id="date" name="date" required>
+    <label for="location">Místo úrazu:</label>
+    <input type="text" id="location" name="location">
+    <label for="description">Popis:</label>
+    <textarea id="description" name="description"></textarea>
+    <button type="submit">Uložit</button>
+    <button type="button" onclick="window.print()">Tisk</button>
+  </form>
+  <script src="main.js"></script>
+</body>
+</html>

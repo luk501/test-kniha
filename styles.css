@@ -1,0 +1,4 @@
+body { font-family: sans-serif; max-width: 600px; margin: auto; padding: 20px; }
+form label { display: block; margin-top: 10px; }
+form input, form textarea { width: 100%; padding: 8px; margin-top: 5px; }
+button { margin-top: 10px; padding: 10px; }
